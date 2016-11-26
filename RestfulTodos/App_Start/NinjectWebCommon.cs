@@ -1,4 +1,4 @@
-using TodoWebApi.Models;
+using RestfulTodos.Models;
 
 [assembly: WebActivatorEx.PreApplicationStartMethod(typeof(RestfulTodos.App_Start.NinjectWebCommon), "Start")]
 [assembly: WebActivatorEx.ApplicationShutdownMethodAttribute(typeof(RestfulTodos.App_Start.NinjectWebCommon), "Stop")]

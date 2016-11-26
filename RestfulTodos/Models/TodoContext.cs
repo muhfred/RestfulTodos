@@ -4,7 +4,7 @@ using System.Data.Entity;
 using System.Linq;
 using System.Web;
 
-namespace TodoWebApi.Models
+namespace RestfulTodos.Models
 {
     public class TodoContext : DbContext
     {

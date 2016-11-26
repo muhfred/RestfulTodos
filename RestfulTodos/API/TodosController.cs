@@ -9,9 +9,9 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using System.Web.Http;
 using System.Web.Http.Description;
-using TodoWebApi.Models;
+using RestfulTodos.Models;
 
-namespace TodoWebApi.API
+namespace RestfulTodos.API
 {
     public class TodosController : ApiController
     {

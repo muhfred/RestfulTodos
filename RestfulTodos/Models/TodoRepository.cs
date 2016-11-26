@@ -5,7 +5,7 @@ using System.Data.Entity.Infrastructure;
 using System.Linq;
 using System.Web;
 
-namespace TodoWebApi.Models
+namespace RestfulTodos.Models
 {
     public class TodoRepository : ITodoRepository
     {
