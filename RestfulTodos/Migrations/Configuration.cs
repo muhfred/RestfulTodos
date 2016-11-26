@@ -5,14 +5,14 @@ namespace TodoWebApi.Migrations
     using System.Data.Entity.Migrations;
     using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<TodoWebApi.Models.TodoContext>
+    internal sealed class Configuration : DbMigrationsConfiguration<RestfulTodos.Models.TodoContext>
     {
         public Configuration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(TodoWebApi.Models.TodoContext context)
+        protected override void Seed(RestfulTodos.Models.TodoContext context)
         {
             //  This method will be called after migrating to the latest version.
 
